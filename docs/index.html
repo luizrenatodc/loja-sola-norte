@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sola Norte · calçados feitos para durar</title>
+<meta name="description" content="Loja de demonstração de uma marca fictícia de calçados.">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<div class="aviso" id="aviso">Frete grátis acima de R$ 499 · Use PRIMEIRO10 na primeira compra</div>
+<header class="topo">
+  <a class="marca" href="#/">Sola Norte</a>
+  <nav aria-label="Principal"><a href="#/colecao">Coleção</a><a href="#/colecao/Tênis">Tênis</a><a href="#/colecao/Botas">Botas</a><a href="#/colecao/Mocassins">Mocassins</a><a href="#/colecao/Sociais">Sociais</a></nav>
+  <button class="sacola" id="abrir-sacola">Sacola <span id="qtd">0</span></button>
+</header>
+<main id="app"></main>
+<footer class="rodape">
+  <div><strong>Sola Norte</strong><p>Marca fictícia. Loja de demonstração: nenhum pedido é cobrado nem enviado.</p></div>
+  <div><strong>Atendimento</strong><p>Troca do primeiro par em até 30 dias.<br>Consertos de solado por toda a vida útil.</p></div>
+  <div><strong>Cupons de teste</strong><p>PRIMEIRO10 e NORTE15.<br>Cartão recusado: use o número 4000 0000 0000 0002.</p></div>
+</footer>
+<div class="veu" id="veu" hidden></div>
+<aside class="gaveta" id="gaveta" aria-label="Sacola" aria-hidden="true"></aside>
+<div class="toast" id="toast" role="status"></div>
+<script type="module" src="app.js"></script>
+</body>
+</html>

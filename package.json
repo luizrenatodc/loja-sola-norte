@@ -1,0 +1,8 @@
+{
+  "name": "loja-sola-norte",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node src/servidor.ts", "test": "node --test test/loja.test.ts" },
+  "engines": { "node": ">=24" }
+}
